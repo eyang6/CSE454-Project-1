@@ -1,5 +1,5 @@
-# CSE454-Project-1
-Fuzzy Movement Robot Controller
+# Fuzzy Movement Robot Controller
+Move a robot from point A to B with fuzzy logic.
 
 ## Purpose
 - Control the acceleration and turning of a robot to make it reach a destination
