@@ -342,9 +342,8 @@ function distMoved = distRules(fuzzDist, currDist)
     placeholder = fuzzDist.*accValues;
     accel = sum(placeholder);
     newSpeed = currDist(2,1) + accel * tf();
-    newSpeed = max([newSpeed, 0]);  %dont decelerate past 0
+    newSpeed = max([newSpeed, 0]);  %NOTE: dont decelerate past 0
     placeholderDist = newSpeed*tf();
-%     currDist(1,1)+currDist(2,1)*tf()+(1/2)*accel*tf()^2; %d = di+vi*t+1/2*a*t^2
     distMoved = [placeholderDist;newSpeed];
 end
 
