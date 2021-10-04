@@ -8,3 +8,5 @@ Move a robot from point A to B with fuzzy logic.
 1. On the prompt, enter the starting coordinates of the robot in the format: x,y and hit enter
 2. On the second prompt, enter the destination coordinates in the same format
 
+The robot will then start to move towards the destination, outputting its coordinates, speed, angular velocity, and membership function weights every 0.1s
+
